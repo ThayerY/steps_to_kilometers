@@ -17,7 +17,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 400px;
   height: 400px;
-  /* Set a specific height to make it longer */
 }
 
 
@@ -42,7 +41,6 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  /* Ensure padding and border are included in the width */
 }
 
 
@@ -65,9 +63,3 @@ button:hover {
   font-size: 1.5em;
   color: white;
 }
-
-
-/* Allows for line breaks in the placeholder */
-/* #stepLengthInput::placeholder {
-  white-space: pre-line;
-} */
