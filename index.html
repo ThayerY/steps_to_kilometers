@@ -16,9 +16,12 @@
       <input type="number" id="stepsInput" placeholder="Enter number of steps">
 
       <label for="stepLengthInput">Enter Step Length (meters):</label>
-      <input type="number" id="stepLengthInput" placeholder="Default is 0.762 meters" step="0.001" min="0">
+      <input type="text" id="stepLengthInput"
+        placeholder="Enter value between 1 and 1.5 meters. Default is 0.762 meters">
 
-      <button id="convertButton">Convert</button>
+
+
+      <button id="convertButton" disabled>Convert</button>
       <button id="clearButton">Clear</button>
 
       <div id="result" class="result"></div>
